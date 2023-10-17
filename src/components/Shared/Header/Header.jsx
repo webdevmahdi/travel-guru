@@ -1,15 +1,14 @@
-
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div>
 
-            <Link to='/'>Home</Link>
-            <Link to='/news'>News</Link>
-            <Link to='/destination'>Destination</Link>
-            <Link to='/blog'>Blog</Link>
-            <Link to='/contact'>Contact</Link>
+            <NavLink className='text-secondary' to='/'>Home</NavLink>
+            <NavLink to='/news'>News</NavLink>
+            <NavLink to='/destination'>Destination</NavLink>
+            <NavLink to='/blog'>Blog</NavLink>
+            <NavLink to='/contact'>Contact</NavLink>
             
     </div>
   )
