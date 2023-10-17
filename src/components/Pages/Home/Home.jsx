@@ -1,11 +1,14 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from '../../Shared/Header/Header'
+import home from "../../../assets/home.png"
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
+      <div className="h-bg">
+      {/* <img className='home-background' src={home} alt=" " /> */}
 
+      </div>
     </div>
   )
 }
