@@ -9,7 +9,7 @@ nav {
 }
 
 .left svg {
-    margin-left: 140px;
+    margin-left: 130px;
 
 }
 
@@ -21,7 +21,8 @@ nav {
 .left input {
     width: 370px;
     height: 24px;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-right: 40px;
     background-color: rgba(255, 255, 255, 0.226);
     padding: 10px;
     border: 1px solid white;
@@ -39,6 +40,12 @@ nav {
     border: none;
 }
 
+.pages{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
 nav a {
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +53,8 @@ nav a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-left: 30px;
+    margin-left: 35px;
+    transition: all 0.3s;
 }
 
 .active {
